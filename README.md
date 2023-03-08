@@ -24,6 +24,10 @@ sudo apt-get install gstreamer1.0-plugins-bad
  
 It’s also important to mention that you will need to install Python 3.9 or higher.
 
+The domain name and path of the API request are stored in ‘conf.csv’ if you want to change it feel free to edit this file.
+The username and password of the SrtServer user are stored in ‘profile.csv’ if you want to change it feel free to edit this file. 
+
+
 
  ## Primary features
  - listen to a specific port waiting for an incoming SRT live video stream and provide an SRT output stream on a specific port.
